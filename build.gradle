@@ -23,3 +23,4 @@ dependencies {
                 'org.codehaus.groovy.modules.http-builder:http-builder:0.7.1',
                 'ch.qos.logback:logback-classic:1.1.8'
 }
+task stage(dependsOn: ['build', 'clean'])
